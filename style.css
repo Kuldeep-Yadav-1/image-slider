@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+img{
+    /* width: 100vw; */
+    height: 100vh;
+}
+
+.slide-container{
+    position: relative;
+    width: 100%;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.arrow{
+    position: absolute;
+    cursor: pointer;
+    top: 42%;
+    color: black;
+    padding: 8px 17px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.next{
+    right: 10px;
+}
+
+.pre{
+    left: 10px;
+}
+
+.caption{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 12px 0px;
+}
+
+.slide{
+    display: none;
+}
